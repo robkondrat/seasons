@@ -22,3 +22,14 @@ FLOW (when just displaying current Latitude)
 11. React calls our 'render' method a second time
 12. Render method returns some updated JSX
 13. React takes that JSX and updates the content in browser
+
+COMPONENT LIFECYCLE METHOD:
+1. constructor
+2. render
+... Content visible on screen ...
+3. componentDidMount
+... Sit and wait for updates ...
+4. componentDidUpdate
+... Sit and wait until this component is no longer shown
+5. componentWillUnmount
+*** Rarely used lifecycle methods: shouldComponentUpdate, getDerivedStateFromProps, getSnapshotBeforeUpdate
